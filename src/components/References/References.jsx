@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './references.scss';
 
 function References() {
   return (
-    <div>References</div>
+    <div className="references">References</div>
   )
 }
 
