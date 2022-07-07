@@ -12,7 +12,7 @@ function Contact() {
   return (
     <div className='contact'>
          <div className="left">
-        <img src="assets/shake.svg" alt="" />
+        <img src="https://i.imgur.com/c1ZarNs.png" alt="" />
       </div>
       <div className="right">
         <h2>Contact.</h2>
