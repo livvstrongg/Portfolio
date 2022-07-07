@@ -6,13 +6,13 @@ function Navbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            genius.
+            Olivia Grass
           </a>
           <div className="itemContainer">
-            <span>+44 924 12 74</span>
+            <span>940-395-8389</span>
           </div>
           <div className="itemContainer">
-            <span>safak@genius.com</span>
+            <span>livyhawk@me.com</span>
           </div>
         </div>
         <div className="right">
