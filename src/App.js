@@ -4,6 +4,7 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Projects from "./components/Projects/Projects";
 import References from "./components/References/References";
 import Contact from "./components/Contact/Contact";
+import Menu from "./components/Menu/Menu";
 import { useState} from "react";
 import './app.scss';
 
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Menu />
       <div className="sections">
         <Intro />
         <Portfolio />
