@@ -7,6 +7,12 @@
         background-color: beige;
         position: relative;
         top: 70px;
+        scroll-snap-type: y mandatory;
+        scroll-snap-align: start;
+        scrollbar-width: none;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         > *{
             width: 100vw;
