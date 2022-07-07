@@ -10,7 +10,7 @@ function Contact() {
     };
 
   return (
-    <div className='contact'>
+    <div className='contact' id="contact">
          <div className="left">
         <img src="https://i.imgur.com/c1ZarNs.png" alt="" />
       </div>

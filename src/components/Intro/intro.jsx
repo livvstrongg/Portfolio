@@ -3,7 +3,7 @@ import './intro.scss';
 
 function Intro() {
   return (
-    <div className='intro'>intro</div>
+    <div className='intro' id='intro'>intro</div>
   )
 }
 

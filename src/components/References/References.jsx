@@ -3,7 +3,7 @@ import './references.scss';
 
 function References() {
   return (
-    <div className="references">References</div>
+    <div className="references" id='references'>References</div>
   )
 }
 
