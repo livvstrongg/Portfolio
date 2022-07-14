@@ -20,9 +20,6 @@ function Navbar() {
           <a class="nav-link" href="#portfolio">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">Projects</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="#references">References</a>
         </li>
         <li class="nav-item">
