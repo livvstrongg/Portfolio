@@ -4,39 +4,19 @@ export default function References() {
   const data = [
     {
       id: 1,
-      name: "Tom Durden",
-      title: "Senior Developer",
+      name: "Jacob Barton",
+      title: "Web Developer",
       img:
-        "https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://media-exp1.licdn.com/dms/image/C4E03AQFppUn3tkAg2Q/profile-displayphoto-shrink_100_100/0/1601320919482?e=1663200000&v=beta&t=RodP_wM9z49yIlAfSzXzA2hm4o3M-mR1h4DlH7Jq1wU",
       icon: "assets/twitter.png",
       desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem.",
-    },
-    {
-      id: 2,
-      name: "Alex Kalinski",
-      title: "Co-Founder of DELKA",
-      img:
-        "https://images.pexels.com/photos/428321/pexels-photo-428321.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/youtube.png",
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem recusandae perspiciatis ducimus vel hic temporibus. ",
-      featured: true,
-    },
-    {
-      id: 3,
-      name: "Martin Harold",
-      title: "CEO of ALBI",
-      img:
-        "https://images.pexels.com/photos/3863793/pexels-photo-3863793.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      icon: "assets/linkedin.png",
-      desc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam dolorem",
+        "During our time at General Assembly, Olivia repeatedly demonstrated her ability to problem solve effectively, take on new challenges and be resourceful. Perhaps even more importantly though, Olivia stands out from the crowd for her high level of emotional intelligence. Humble, empathetic, and community-oriented, Olivia is the kind of person that builds up the whole team.",
     },
   ];
+
   return (
     <div className="testimonials" id="testimonials">
-      <h1>Testimonials</h1>
+      <h1>References</h1>
       <div className="container">
         {data.map((d) => (
           <div className={d.featured ? "card featured" : "card"}>
