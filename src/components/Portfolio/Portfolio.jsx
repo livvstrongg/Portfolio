@@ -3,7 +3,7 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   featuredPortfolio,
-  webPortfolio,
+  ecommerceApp,
   mobilePortfolio,
   designPortfolio,
   contentPortfolio,
@@ -41,7 +41,7 @@ export default function Portfolio() {
         setData(featuredPortfolio);
         break;
       case "web":
-        setData(webPortfolio);
+        setData(ecommerceApp);
         break;
       case "mobile":
         setData(mobilePortfolio);
