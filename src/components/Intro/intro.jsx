@@ -2,7 +2,6 @@ import "./intro.scss";
 import { useEffect, useRef } from "react";
 
 export default function Intro() {
-  const textRef = useRef();
 
   useEffect(() => {
   }, []);
@@ -12,6 +11,11 @@ export default function Intro() {
         <div className="imgContainer">
           <img src="https://i.imgur.com/bIYYFPB.jpg" alt="" />
         </div>
+      <div className="right">
+        <a href="#portfolio">
+          <img src="assets/down.png" alt="" />
+        </a>
       </div>
+    </div>
   );
 }
