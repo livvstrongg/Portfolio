@@ -1,30 +1,39 @@
 import "./navbar.scss";
 
-function Navbar({ menuOpen, setMenuOpen }) {
+import React from 'react'
+
+function Navbar() {
   return (
-    <div className={"navbar " + (menuOpen && "active")}>
-      <div className="wrapper">
-        <div className="left">
-          <a href="#intro" className="logo">
-            Olivia Grass
-          </a>
-          <div className="itemContainer">
-            <span>940-395-8389</span>
-          </div>
-          <div className="itemContainer">
-            <span>livyhawk@me.com</span>
-          </div>
-        </div>
-        <div className="right">
-          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
-            <span className="line1"></span>
-            <span className="line2"></span>
-            <span className="line3"></span>
-          </div>
-        </div>
-      </div>
+    <div>
+      <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Olivia Grass</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#references">References</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
-  );
+  </div>
+</nav>
+    </div>
+  )
 }
 
 export default Navbar
