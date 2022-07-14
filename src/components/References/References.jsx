@@ -15,7 +15,7 @@ export default function References() {
   ];
 
   return (
-    <div className="testimonials" id="testimonials">
+    <div className="testimonials" id="references">
       <h1>References</h1>
       <div className="container">
         {data.map((d) => (
