@@ -1,40 +1,58 @@
-export const featuredPortfolio = [
+export const skills = [
     {
       id: 1,
-      title: "Social Media App",
+      title: "Javascript",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://i.imgur.com/dRcndqi.png",
     },
     {
       id: 2,
-      title: "Rampa UI Design",
+      title: "Python",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/HBUJ5xM.png",
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
+      title: "React",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/ZLhq95f.png",
     },
     {
       id: 4,
-      title: "Relax Mobile App",
+      title: "CSS",
       img:
-        "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/9xBnA9L.png",
     },
     {
       id: 5,
-      title: "Hero Web Design",
+      title: "Bootstrap",
       img:
-        "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        "https://i.imgur.com/7p7vKJF.png",
     },
     {
       id: 6,
-      title: "Banking App",
+      title: "HTML",
       img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+        "https://i.imgur.com/YyyZYhq.png",
     },
+    {
+        id: 7,
+        title: "Github",
+        img:
+          "https://i.imgur.com/vOYHFoN.png",
+      },
+      {
+        id: 8,
+        title: "MongoDB",
+        img:
+          "https://i.imgur.com/dpTHCvX.png",
+      },
+      {
+        id: 9,
+        title: "Sass",
+        img:
+          "https://i.imgur.com/xexkaYx.png",
+      },
   ];
   
   export const ecommerceApp = [

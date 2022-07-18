@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
-  featuredPortfolio,
+  skills,
   ecommerceApp,
   recipeApp,
   socialMediaApp,
@@ -38,7 +38,7 @@ export default function Portfolio() {
   useEffect(() => {
     switch (selected) {
       case "skills":
-        setData(featuredPortfolio);
+        setData(skills);
         break;
       case "web":
         setData(ecommerceApp);
@@ -53,7 +53,7 @@ export default function Portfolio() {
         setData(gameApp);
         break;
       default:
-        setData(featuredPortfolio);
+        setData(skills);
     }
   }, [selected]);
 
