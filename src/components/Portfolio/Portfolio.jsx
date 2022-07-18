@@ -14,30 +14,30 @@ export default function Portfolio() {
   const [data, setData] = useState([]);
   const list = [
     {
-      id: "featured",
-      title: "Featured",
+      id: "skills",
+      title: "Skills",
     },
     {
       id: "web",
-      title: "Web App",
+      title: "Ecommerce App",
     },
     {
       id: "mobile",
-      title: "Mobile App",
+      title: "Recipe App",
     },
     {
       id: "design",
-      title: "Design",
+      title: "Social Media App",
     },
     {
       id: "content",
-      title: "Content",
+      title: "Game App",
     },
   ];
 
   useEffect(() => {
     switch (selected) {
-      case "featured":
+      case "skills":
         setData(featuredPortfolio);
         break;
       case "web":

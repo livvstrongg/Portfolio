@@ -11,11 +11,6 @@ export default function Intro() {
         <div className="imgContainer">
           <img src="https://i.imgur.com/bIYYFPB.jpg" alt="" />
         </div>
-      <div className="right">
-        <a href="#portfolio">
-          <img src="assets/down.png" alt="" />
-        </a>
-      </div>
     </div>
   );
 }
