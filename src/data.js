@@ -60,7 +60,7 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const mobilePortfolio = [
+  export const recipeApp = [
     {
       id: 1,
       title: "Mobile Social Media App",

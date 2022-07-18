@@ -4,7 +4,7 @@ import "./portfolio.scss";
 import {
   featuredPortfolio,
   ecommerceApp,
-  mobilePortfolio,
+  recipeApp,
   designPortfolio,
   contentPortfolio,
 } from "../../data";
@@ -44,7 +44,7 @@ export default function Portfolio() {
         setData(ecommerceApp);
         break;
       case "mobile":
-        setData(mobilePortfolio);
+        setData(recipeApp);
         break;
       case "design":
         setData(designPortfolio);
