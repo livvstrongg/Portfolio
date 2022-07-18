@@ -6,7 +6,7 @@ import {
   ecommerceApp,
   recipeApp,
   socialMediaApp,
-  contentPortfolio,
+  gameApp,
 } from "../../data";
 
 export default function Portfolio() {
@@ -50,7 +50,7 @@ export default function Portfolio() {
         setData(socialMediaApp);
         break;
       case "content":
-        setData(contentPortfolio);
+        setData(gameApp);
         break;
       default:
         setData(featuredPortfolio);

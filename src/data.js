@@ -114,42 +114,30 @@ export const featuredPortfolio = [
     },
   ];
   
-  export const contentPortfolio = [
+  export const gameApp = [
     {
       id: 1,
       title: "Content Social Media App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://user-images.githubusercontent.com/101207297/163058390-f65cbbbf-7031-4dea-aecf-58eafeca2a6d.png",
     },
     {
       id: 2,
       title: "Content Rampa UI Design",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://user-images.githubusercontent.com/101207297/163058400-539338ec-31bb-4bc7-9705-1c729adeba1f.png",
     },
     {
       id: 3,
       title: "Content E-commerce Web Design",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://user-images.githubusercontent.com/101207297/163058406-de68311d-ede3-41a7-a075-c434204fcb78.png",
     },
     {
       id: 4,
       title: "Content Relax Mobile App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Content Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://user-images.githubusercontent.com/101207297/163058414-d7e0aa2a-6f39-45d6-8760-22d00cc9e3ca.png",
     },
   ];
   
