@@ -1,5 +1,6 @@
 import Navbar from "./components/Nav/Navbar";
 import Intro from "./components/Intro/Intro";
+import Projects from "./components/Projects/Projects";
 import Portfolio from "./components/Portfolio/Portfolio";
 import References from "./components/References/References";
 import Contact from "./components/Contact/Contact";
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <div className="sections">
         <Intro />
+        <Projects />
         <Portfolio />
         <References />
         <Contact />

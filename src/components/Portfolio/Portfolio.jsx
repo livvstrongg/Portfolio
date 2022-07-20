@@ -78,9 +78,12 @@ export default function Portfolio() {
               alt=""
             />
             <h3>{d.title}</h3>
-                <h3>{d.website}</h3> 
-
           </div>
+        ))}
+      </div>
+      <div className="buttons">
+        {data.map((d) => (
+          <button>{d.website}</button>
         ))}
       </div>
     </div>
