@@ -39,26 +39,25 @@ function Projects(){
     ]
 
     return(
-        <div name="projects" className="w-full md:h-screen bg-gradient-to-b from-[#282C2F] to-[#323639] text-[#f1f0ec]">
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div name="projects">
+            <div>
                 <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-[#00FFFF]">Projects</p>
+                    <p>Projects</p>
                 </div>
-
-                <div className="grid sm:grid-cols-2 gap-6 px-12 sm:px-0">
+                <div>
                     {projects.map(({id, src, name, demo, code})=> {
                         return(
-                            <div key={id} style={{backgroundImage: `url(${src})`}} className='shadow-lg group container rounded-md flex justify-center items-center mx-auto content-div'>
-                                <div className="opacity-0 group-hover:opacity-100">
+                            <div key={id} style={{backgroundImage: `url(${src})`}}>
+                                <div>
                                     <span className="text-2xl font-bold tracking-wider">
                                         {name}
                                     </span>
                                     <div className="pt-8 text-center">
-                                        <a href={demo} target="_blank" rel="noopener noreferrer">
-                                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#323639] text-[#f1f0ec] font-bold text-lg">Demo</button>
+                                        <a href={demo} >
+                                            <button>Demo</button>
                                         </a>
                                         <a href={code} target="_blank" rel="noopener noreferrer">
-                                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-[#323639] text-[#f1f0ec] font-bold text-lg">Code</button>
+                                            <button>Code</button>
                                         </a>
                                     </div>
                                 </div>
