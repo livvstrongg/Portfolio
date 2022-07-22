@@ -3,10 +3,6 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import {
   skills,
-  ecommerceApp,
-  recipeApp,
-  socialMediaApp,
-  gameApp,
 } from "../../data";
 
 export default function Portfolio() {
@@ -15,23 +11,6 @@ export default function Portfolio() {
   const list = [
     {
       id: "skills",
-      title: "Skills",
-    },
-    {
-      id: "web",
-      title: "Ecommerce App",
-    },
-    {
-      id: "mobile",
-      title: "Recipe App",
-    },
-    {
-      id: "design",
-      title: "Social Media App",
-    },
-    {
-      id: "content",
-      title: "Game App",
     },
   ];
 
@@ -40,18 +19,7 @@ export default function Portfolio() {
       case "skills":
         setData(skills);
         break;
-      case "web":
-        setData(ecommerceApp);
-        break;
-      case "mobile":
-        setData(recipeApp);
-        break;
-      case "design":
-        setData(socialMediaApp);
-        break;
-      case "content":
-        setData(gameApp);
-        break;
+
       default:
         setData(skills);
     }
@@ -66,7 +34,6 @@ export default function Portfolio() {
             title={item.title}
             active={selected === item.id}
             setSelected={setSelected}
-            id={item.id}
           />
         ))}
       </ul>
@@ -79,11 +46,6 @@ export default function Portfolio() {
             />
             <h3>{d.title}</h3>
           </div>
-        ))}
-      </div>
-      <div className="buttons">
-        {data.map((d) => (
-          <button>{d.website}</button>
         ))}
       </div>
     </div>
