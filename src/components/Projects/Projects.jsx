@@ -40,11 +40,7 @@ function Projects(){
 
     return(
         <div name="projects">
-            <div>
-                <div className="pb-8">
-                    <p>Projects</p>
-                </div>
-                <div>
+                    <h1>Projects</h1>
                     {projects.map(({id, src, name, demo, code})=> {
                         return(
                             <div key={id} style={{backgroundImage: `url(${src})`}}>
@@ -65,9 +61,6 @@ function Projects(){
                         )
                     })}
                 </div>
-
-            </div>
-        </div>
     )
 }
 

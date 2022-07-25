@@ -7,10 +7,8 @@ export default function Intro() {
   }, []);
 
   return (
-    <div className="intro" id="intro">
-        <div className="imgContainer">
+    <div className="intro">
           <img src="https://i.imgur.com/bIYYFPB.jpg" alt="" />
-        </div>
     </div>
   );
 }
