@@ -1,12 +1,12 @@
-// @import "../../global.scss";
 
-// .works {
-//   background-color: white;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   position: relative;
 
+.works {
+  background-color: white;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 //   .arrow {
 //     height: 50px;
 //     position: absolute;
@@ -31,28 +31,31 @@
 //     transition: all 1s ease-out;
 
 
-//     .container {
-//       width: 100vw;
-//       display: flex;
-//       align-items: center;
-//       justify-content: center;
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-//       .item {
-//         width: 700px;
-//         height: 100%;
-//         background-color: white;
-//         border-radius: 20px;
-//         display: flex;
-//         align-items: center;
-//         justify-content: center;
+      .item {
+        width: 700px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
 
-//         .left {
-//           flex: 4;
-//           height: 80%;
-//           display: flex;
-//           align-items: center;
-//           justify-content: center;
+        .left {
+          flex: 4;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
 
 //           .leftContainer {
 //             width: 90%;
@@ -61,14 +64,14 @@
 //             flex-direction: column;
 //             justify-content: space-between;
 
-//             .imgContainer {
-//               width: 40px;
-//               height: 40px;
-//               border-radius: 50%;
-//               background-color: rgb(245, 179, 155);
-//               display: flex;
-//               align-items: center;
-//               justify-content: center;
+            .imgContainer {
+              width: 80px;
+              height: 80px;
+              border-radius: 50%;
+              background-color: #475650;
+              display: flex;
+              align-items: center;
+            }
 
 
 //               img {

@@ -33,12 +33,12 @@ export default function Works() {
     },
     {
         id: "4",
-        icon: "https://i.imgur.com/TZGax3M.png",
-        title: "Dannygram",
+        icon: "https://i.imgur.com/jbc9MLZ.png",
+        title: "Game of War",
         desc:
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+          "Game of war card game created using Javascript, HTML, and CSS.",
         img:
-          "https://i.imgur.com/TZGax3M.png",
+          "https://i.imgur.com/jbc9MLZ.png",
       },
   ];
 
@@ -57,14 +57,8 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <a href>Projects {d.website}</a>
+                  <button>Projects{d.website}</button>
                 </div>
-              </div>
-              <div className="right">
-                <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
-                  alt=""
-                />
               </div>
             </div>
           </div>
