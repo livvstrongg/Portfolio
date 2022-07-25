@@ -1,13 +1,12 @@
 import { useState } from "react";
 import "./projects.scss";
 
-
 export default function Works() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
-      icon: "./assets/mobile.png",
+      icon: "https://i.imgur.com/M1OdU0M.png",
       title: "Olive Skin",
       desc:
         "An E-commerce App made using ReactJS and MongoDB.  ",
@@ -16,36 +15,38 @@ export default function Works() {
     },
     {
       id: "2",
-      icon: "./assets/globe.png",
-      title: "Mobile Application",
+      icon: "https://i.imgur.com/ismQbJO.png",
+      title: "Les Emotifs Anonymes",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "A recipe search app created using ReactJS and Edamam API.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
+        "https://i.imgur.com/ismQbJO.png",
     },
     {
       id: "3",
-      icon: "./assets/writing.png",
-      title: "Branding",
+      icon: "https://i.imgur.com/TZGax3M.png",
+      title: "Dannygram",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "https://i.imgur.com/TZGax3M.png",
     },
+    {
+        id: "4",
+        icon: "https://i.imgur.com/TZGax3M.png",
+        title: "Dannygram",
+        desc:
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        img:
+          "https://i.imgur.com/TZGax3M.png",
+      },
   ];
 
-  const handleClick = (way) => {
-    way === "left"
-      ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
-      : setCurrentSlide(currentSlide < data.length - 1 ? currentSlide + 1 : 0);
-  };
+
   
   return (
     <div className="works" id="works">
-      <div
-        className="slider"
-        style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
-      >
+      <div>
         {data.map((d) => (
           <div className="container">
             <div className="item">
@@ -56,7 +57,7 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <a href>Projects {d.website}</a>
                 </div>
               </div>
               <div className="right">
@@ -73,13 +74,11 @@ export default function Works() {
         src="assets/arrow.png"
         className="arrow left"
         alt=""
-        onClick={() => handleClick("left")}
       />
       <img
         src="assets/arrow.png"
         className="arrow right"
         alt=""
-        onClick={() => handleClick()}
       />
     </div>
   );
