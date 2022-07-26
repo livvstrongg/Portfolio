@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./projects.scss";
 
 export default function Works() {
-  const [currentSlide, setCurrentSlide] = useState(0);
   const data = [
     {
       id: "1",
@@ -41,8 +40,6 @@ export default function Works() {
           "https://i.imgur.com/jbc9MLZ.png",
       },
   ];
-
-
   
   return (
     <div className="works" id="works">

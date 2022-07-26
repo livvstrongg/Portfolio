@@ -9,17 +9,14 @@ import './app.scss';
 
 
 function App() {
-  const [menuOpen, setMenuOpen ] = useState(true)
   return (
     <div className="app">
       <Navbar />
-      <div className="sections">
         <Intro />
         <Projects />
         <Portfolio />
         <References />
         <Contact />
-      </div>
     </div>
   );
 }
