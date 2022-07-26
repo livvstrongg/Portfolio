@@ -21,10 +21,10 @@ function Intro() {
     <div>
       <Carousel interval={3000} showThumbs={false}>
                 <div>
-                    <img src="https://i.imgur.com/r9Wc0cG.jpghttps://i.imgur.com/9QRUsFc.jpg"/>
+                    <img src="https://i.imgur.com/9QRUsFc.jpg"/>
                 </div>
                 <div>
-                    <img src="https://i.imgur.com/rlc9qw8.jpg" alt=""/>
+                    <img src="https://i.imgur.com/CJHuoIA.jpg" alt=""/>
                 </div>
             </Carousel>
     </div>
