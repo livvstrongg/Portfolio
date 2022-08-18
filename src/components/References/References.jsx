@@ -12,6 +12,16 @@ export default function References() {
       desc:
         "During our time at General Assembly, Olivia repeatedly demonstrated her ability to problem solve effectively, take on new challenges and be resourceful. Perhaps even more importantly though, Olivia stands out from the crowd for her high level of emotional intelligence. Humble, empathetic, and community-oriented, Olivia is the kind of person that builds up the whole team.",
     },
+    {
+      id: 2,
+      name: "Mohammed Rahman",
+      title: "Software Engineer | Fullstack Developer",
+      img:
+        "https://media-exp1.licdn.com/dms/image/D4E35AQE1psQQZz3XNQ/profile-framedphoto-shrink_100_100/0/1652021706716?e=1661454000&v=beta&t=wbLWqdakYwCHqoi97hoU-k_toQIOmreBi3cWysCAPkE",
+      icon: "assets/twitter.png",
+      desc:
+        "I had the pleasure of working on a social media app with Olivia and during that time, she displayed tremendous diligence and dedication. Olivia's biggest strength is her ability to deal with conflicting priorities in high-pressure situations. She consistently gave 100 percent effort to the team and played a significant role in ensuring that we completed features and deployed our app on a strict deadline. Olivia had excellent time management skills and had a knack for keeping everyone calm and productive during intense crunch periods. What stood out to me the most was that Olivia was someone who really understood how to get the best out of people. For any company or team that needs a proven Software Engineer/Web Developer with a get-it-done-with-a-smile approach, I recommend Olivia.",
+    },
   ];
 
   return (
