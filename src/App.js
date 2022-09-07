@@ -1,24 +1,15 @@
-import Navbar from "./components/Nav/Navbar";
-import Intro from "./components/Intro/Intro";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Projects from "./components/Projects/Projects";
-import References from "./components/References/References";
-import Contact from "./components/Contact/Contact";
-import { useState} from "react";
-import './app.scss';
+import React from "react";
 
-
-function App() {
+export default function App() {
   return (
-    <div className="app">
+    <main>
       <Navbar />
-        <Intro />
-        <Projects />
-        <Portfolio />
-        <References />
-        <Contact />
-    </div>
+      <About />
+      <Projects />
+      <Skills />
+      <Testimonials />
+      <Contact />
+    </main>
   );
 }
 
-export default App;
