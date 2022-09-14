@@ -2,17 +2,18 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about">
-      <div>
-        <div>
+      <div class="container text-center">
+        <div class="row">
+        <div class="col">
+          <img class="container"
+            src="https://i.imgur.com/pF6nHXr.jpeg"
+          />
+        </div>
+        <div class="col">
           <h1>
             Hey, I'm Olivia.
             <br/>Welcome to my Portfolio.
           </h1>
-          <p>
-            
-          </p>
-          <div>
             <a
               href="#contact">
               Work With Me
@@ -24,13 +25,6 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div>
-          <img
-            alt="hero"
-            src="https://i.imgur.com/pF6nHXr.jpeg"
-          />
-        </div>
       </div>
-    </section>
   );
 }
