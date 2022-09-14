@@ -5,9 +5,7 @@ export default function About() {
       <div class="container text-center">
         <div class="row">
         <div class="col">
-          <img class="container"
-            src="https://i.imgur.com/pF6nHXr.jpeg"
-          />
+        <img src="https://i.imgur.com/pF6nHXr.jpeg" class="img-thumbnail" alt="..."/>
         </div>
         <div class="col">
           <h1>
